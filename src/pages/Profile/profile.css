@@ -1,0 +1,61 @@
+.profile__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile__avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+
+.profile__role {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+.profile__toggle {
+  border: 1px solid #e0e0e0;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: #ffffff;
+}
+
+.profile__toggle h3 {
+  font-size: 1rem;
+}
+
+.profile__toggle p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+.profile__switch {
+  border-radius: 999px;
+  border: 1px solid #000000;
+  padding: 0.4rem 1rem;
+  background-color: #ffffff;
+  transition: all 0.25s ease;
+}
+
+.profile__switch:active {
+  transform: scale(0.96);
+}
+
+.profile__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
