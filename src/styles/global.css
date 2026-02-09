@@ -1,0 +1,86 @@
+:root {
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #000000;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem 6rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 28rem;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  .app-shell {
+    padding: 2rem 1rem 6rem;
+  }
+
+  .app-container {
+    max-width: 30rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 1.25rem 5rem;
+  animation: fadeIn 0.35s ease;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

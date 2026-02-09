@@ -1,0 +1,53 @@
+.track__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track__id {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.track__timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.track__step {
+  display: flex;
+  gap: 1rem;
+}
+
+.track__indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track__dot {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+.track__line {
+  width: 2px;
+  flex: 1;
+  background-color: #e0e0e0;
+  margin-top: 0.4rem;
+}
+
+.track__step h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.track__step p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.35rem;
+}
